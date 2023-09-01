@@ -31,24 +31,46 @@ Sum =A’B’Cin + A’BCin’ + ABCin + AB’Cin’ = A ⊕ B ⊕ Cin Carry = A
 
 ### Procedure
 
-Connect the supply (+5V) to the circuit
-Switch ON the main switch
-If the output is 1, then the led glows.
+Connect the supply (+5V) to the circuit Switch ON the main switch If the output is 1, then the led glows.
+
 ### 
 Program:
-/*
+```
 Program to design a half adder and full adder circuit and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
-*/
+Developed by: Suji.G
+RegisterNumber:  212222230152
+## half adder
+module exp3 (a,b,sum,carry);
+input a,b;
+output sum,carry;
+assign sum = (a^b);
+assign carry = (a&b);
+endmodule
+## Full adder
+module exp3f (a,b,c,sum,carry);
+input a,b,c;
+output sum,carry;
+assign sum = (a^b^c);
+assign carry = ((a&b)|(a^b)&c);
+endmodule
+
+````
 Logic symbol & Truthtable
 RTL realization
 
 ### Output:
+![Screenshot 2023-09-01 084448](https://github.com/sujigunasekar/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/119559822/e9dc7f5e-dc70-4e29-9131-8fd59f3dd501)
+
 ### RTL
 ### TIMING DIAGRAM
+![Screenshot 2023-09-01 091137](https://github.com/sujigunasekar/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/119559822/4d087c38-297d-442a-9e41-84bc0f4e8329)
+![Screenshot 2023-09-01 093156](https://github.com/sujigunasekar/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/119559822/b053878e-60a3-417a-b56f-d7b72c7b3070)
+
+![Screenshot 2023-09-01 093315](https://github.com/sujigunasekar/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/119559822/a6b454db-5835-409f-a536-b9609e37d9fb)
+![WhatsApp Image 2023-09-01 at 9 06 38 AM](https://github.com/sujigunasekar/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/119559822/b659f9a7-4122-4b42-8ea0-da238d1b5e83)
 
 
 ### TRUTH TABLE 
+![WhatsApp Image 2023-09-01 at 9 06 39 AM](https://github.com/sujigunasekar/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/119559822/ca7d6369-c68d-4ce1-a4c8-f54dae50702c)
 
 ### Result:
