@@ -46,6 +46,7 @@ output sum,carry;
 assign sum = (a^b);
 assign carry = (a&b);
 endmodule
+
 ## Full adder
 module exp3f (a,b,c,sum,carry);
 input a,b,c;
@@ -59,18 +60,23 @@ Logic symbol & Truthtable
 RTL realization
 
 ### Output:
-![Screenshot 2023-09-01 084448](https://github.com/sujigunasekar/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/119559822/e9dc7f5e-dc70-4e29-9131-8fd59f3dd501)
-
 ### RTL
+## Half adder
+![Screenshot 2023-09-01 084448](https://github.com/sujigunasekar/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/119559822/e9dc7f5e-dc70-4e29-9131-8fd59f3dd501)
+## Full adder
+![Screenshot 2023-09-01 093315](https://github.com/sujigunasekar/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/119559822/a6b454db-5835-409f-a536-b9609e37d9fb)
+
 ### TIMING DIAGRAM
+## Haf adder
 ![Screenshot 2023-09-01 091137](https://github.com/sujigunasekar/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/119559822/4d087c38-297d-442a-9e41-84bc0f4e8329)
+## full adder
 ![Screenshot 2023-09-01 093156](https://github.com/sujigunasekar/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/119559822/b053878e-60a3-417a-b56f-d7b72c7b3070)
 
-![Screenshot 2023-09-01 093315](https://github.com/sujigunasekar/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/119559822/a6b454db-5835-409f-a536-b9609e37d9fb)
-![WhatsApp Image 2023-09-01 at 9 06 38 AM](https://github.com/sujigunasekar/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/119559822/b659f9a7-4122-4b42-8ea0-da238d1b5e83)
-
-
-### TRUTH TABLE 
+### TRUTH TABLE
+## Haf adder
 ![WhatsApp Image 2023-09-01 at 9 06 39 AM](https://github.com/sujigunasekar/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/119559822/ca7d6369-c68d-4ce1-a4c8-f54dae50702c)
-
+## full adder
+![WhatsApp Image 2023-09-01 at 9 06 38 AM](https://github.com/sujigunasekar/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/119559822/b659f9a7-4122-4b42-8ea0-da238d1b5e83)
+ 
 ### Result:
+Thus the Implementation of Half Adder and Full Adder circuit are studied and the truth table for different logic gates are verified.
